@@ -30,7 +30,7 @@ const Hero = () => {
 
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 10000);
 
     return () => clearTimeout(timeout);
   }, [loadedVideos]);
